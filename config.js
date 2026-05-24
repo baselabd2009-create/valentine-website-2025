@@ -1,6 +1,6 @@
 const CONFIG = {
     valentineName: "يا سُكّر حياتي",
-    pageTitle: "رسالة سرية لأغلى حبيبة بالعالم 💝",
+    pageTitle: "رسالة سريية لأغلى حبيبة بالعالم 💝",
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓', '💕'],  
         bears: ['🧸', '🐻', '🌸', '✨']                       
