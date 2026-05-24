@@ -1,89 +1,63 @@
 // ============================================
-// 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
+// 🎀 NEW HELLO KITTY EID SPECIAL TEMPLATE 🎀
 // ============================================
 
 const CONFIG = {
-    // Your Valentine's name that will appear in the title
-    // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Shlok",
-
-    // The title that appears in the browser tab
-    // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
-
-    // Floating emojis that appear in the background
-    // Find more emojis at: https://emojipedia.org
+    valentineName: "حبيبة قلبي وعيدي 🌸",
+    pageTitle: "رسالة عيد سرية من هلو كيتي 🎀✨",
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['🐱', '🎀', '🌸', '💖', '💝', '✨'],  // أشكال هلو كيتي والفيونكات المتطايرة
+        bears: ['🍭', '🧁', '🎈']                       
     },
-
-    // Questions and answers
-    // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "Ma thare se prem kara h"           // Secret hover message
+            text: "أهلاً بكِ يا سُكّر! هلو كيتي عندها رسالة سرية وطويلة وصادقة جداً بمناسبة العيد.. مستعدة تفتحيها؟ 🎀", 
+            yesBtn: "مستعدة طبعاً! ✨",                                             
+            noBtn: "لا، بعدين 🏃‍♀️",                                               
+            secretAnswer: "أصلاً هلو كيتي ما بتسمح بكلمة لا! 😼💖"           
         },
         second: {
-            text: "How much do I love you?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "قبل ما نقرأ الرسالة الكبيرة.. قديش نسبة حماسِك لعيدنا سوا؟ حركي المؤشر لآخر شيء وشوفي شو بصير! 🥺🍭",                          
+            startText: "هالقد!",                                   
+            nextBtn: "افتلي الرسالة الآن ❤️"                                         
         },
         third: {
-            text: "Will you be my lover forever and ever?🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "كل عام وأنتِ بقلبي، وكل عام وأنتِ الفرحة اللي بتزين أيامي.. هل بتعرفي إنك أنتِ عيدي وأجمل أعياد هالدنيا كلها؟ 🌹✨", 
+            yesBtn: "أكيد بعرف يا روحي! 🥰",                                             
+            noBtn: "لا ما بعرف 🧐"                                                 
         }
     },
-
-    // Love meter messages
-    // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "YESSS!! THIS MUCH AND TO INFINITY",  // Shows when they go past 5000%
-        high: "HMmm. MORE!",              // Shows when they go past 1000%
-        normal: "OF COURSE MORE THAN THAT BRO"                           // Shows when they go past 100%
+        extreme: "واااااو! حماسكِ واصل للقمة! هلو كيتي طايرة من الفرحة! 🥰🚀🎀",  
+        high: "العيد بوجودكِ صار أحلى بمليون مرة! 🌸💝",              
+        normal: "وأنا بحبكِ وبموت فيكِ أكثر من هيك بكثير! 🥰"                           
     },
-
-    // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yayyyyyyyyyyyyyyyy!!!!!!!🎉💝💖💝💓",
-        message: "We should get married ASAP",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "عساكِ من عواده يا قطعة من قلبي! 🎉🎀💖💝💓",
+        message: "حبيت أكون أول وحدة بتباركلك بالعيد وأقولك: كل عام وأنتِ لروحي حباً، ولأيامى فرحاً، ولقلبي عيداً. العيد الحقيقي مش بالملابس ولا بالحلوى، العيد هو إني أصحى وألاقيكِ في حياتي يا توأم روحي وسندي. شكراً لأنك بتخلي كل شي دايماً أحلى وألطف بوجودكِ وبضحكتكِ.. بحبكككك من كل قلبي دايماً وأبداً وما يحمني منكِ يا رب! 😭🎀🍿✨",
+        emojis: "🎁💖🤗💝💋❤️💕🌸✨🎀🐱"  
     },
-
-    // Color scheme for the website
-    // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        backgroundStart: "#ffe5ec",      // خلفية وردية ناعمة جداً خاصة بهلو كيتي
+        backgroundEnd: "#ffb3c6",        // تدرج وردي دافئ ومختلف عن الموقع الأول
+        buttonBackground: "#ff4d6d",     
+        buttonHover: "#ff758f",          
+        textColor: "#590d22"             // لون نص داكن وفخم متناسق مع الأشكال الجديدة
     },
-
-    // Animation settings
-    // Adjust these if you want faster/slower animations
     animations: {
-        floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
-        floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
+        floatDuration: "12s",           // حركة أسرع للإيموجيز لإعطاء مظهر تفاعلي جديد
+        floatDistance: "70px",          
+        bounceSpeed: "0.4s",            
+        heartExplosionSize: 2.0         // تأثير انفجار قلوب أكبر عند النهاية
     },
-
-    // Background Music (Optional)
-    // Add your own music URL after getting proper licenses
     music: {
-        enabled: true,                     // Music feature is enabled
-        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.5                        // Volume level (0.0 to 1.0)
+        enabled: true,                     
+        autoplay: true,                    
+        musicUrl: "https://cloudinary.com", 
+        startText: "🎵 تشغيل موسيقى هلو كيتي",        
+        stopText: "🔇 إيقاف الموسيقى",         
+        volume: 0.4                        
     }
 };
 
-// Don't modify anything below this line unless you know what you're doing
-window.VALENTINE_CONFIG = CONFIG; 
+window.VALENTINE_CONFIG = CONFIG;
